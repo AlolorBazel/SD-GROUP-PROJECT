@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="assets/imgs/VIVA_LOGO.png" alt="vivamus logo">
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        
+        <ul class="navbar">
+            <li>Bibendum</li>
+            <li class="remove-later">|</li>
+            <li>Sollicitudin</li>
+            <li class="remove-later">|</li>
+            <li>Metus</li>
+            <li class="remove-later">|</li>
+            <li>Egestas</li>
+        </ul>
+        <div class="search">
+            <input type="text">
+            <img src="assets/imgs/ICON_MAGNIFYING.png" alt="magnifying-glass">
+        </div>
+        
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>In euismod sapien eu maximus tempus</h1>
+            <p>Vestibulum bibendum posuere dui, in pharetra est hendrerit ac.</p>
+            <p>Integer posuere metus lacus</p>
+            <hr>
+
+            <div class="container">
+                <div class="horizontalLine"></div>
+                <div class="progress">
+                    <div class="rounds">
+                        <div class="round active">
+                            <h1>1</h1>
+                        </div>
+                        <div class="round">
+                            <h1>2</h1>
+                        </div>
+                        <div class="round">
+                            <h1>3</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutYou">
+                    <h2>About you</h2>
+                    <form action="">
+                        <div class="fullname">
+                            <div id="fname">
+                                <label for="firstName">First name*</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+        
+                            <div id="lname">
+                                <label for="lastName">Last name*</label>
+                                <input type="text" id="lastName" name="lastName" required>  
+                            </div>
+                        </div>
+    
+                        <div id="emailAddress">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+    
+                        <div id="mobileNum">
+                            <label for="mobile">Mobile number*</label>
+                            <input type="tel" id="mobile" name="mobile" required>
+                        </div>
+    
+                    </form>
+                </div>
+                <div class="button-container">
+                    <button type="button" onclick="next()">Next</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rounds">
+            <div class="round"></div>
+            <div class="round"></div>
+            <div class="round"></div>
+            <div class="round"></div>
+            <div class="round"></div>
+        </div>
+        <ul>
+            <li>Pellentesque</li>
+            <li>|</li>
+            <li>Et interdum</li>
+            <li>|</li>
+            <li>Neque</li>
+            <li>|</li>
+            <li>Integer</li>
+            <li>|</li>
+            <li>Ullamcorper</li>
+            <li>|</li>
+            <li>Sagittis</li>
+        </ul>
+        <div class="copyright">
+            <p>Copyright © 2015 Proin eget ipsum libero</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
