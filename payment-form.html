@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="assets/css/payment-form.css">
+</head>
+<body>
+    <header>
+        <img src="assets/imgs/VIVA_LOGO.png" alt="vivamus logo">
+        <ul>
+            <li>Bibendum</li>
+            <li>|</li>
+            <li>Sollicitudin</li>
+            <li>|</li>
+            <li>Metus</li>
+            <li>|</li>
+            <li>Egestas</li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="header-top">Vivamus interdum nunc ac sem fringilla</h1>
+            <p class="header-buttom">Duis risus urna, mattis eget justo non, gravida ultrices diam</p>
+            <hr>
+            <div class="container">
+            <div class="horizontalLine"></div>
+            <div class="progress">
+                <div class="rounds">
+                    <div class="round">
+                        <h1>1</h1>
+                    </div>
+                    <div class="round active">
+                        <h1>2</h1>
+                    </div>
+                    <div class="round">
+                        <h1>3</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payment-form">
+                <h2>Your Donation</h2>
+                <div class="payment">
+                    <button class="paypal">Paypal</button>
+                    <button class="credit">Credit Card</button>
+                </div>
+                <form action="#" method="post">
+
+                        <label for="discount-amount">Discount Amount*</label>
+                        <input type="text" id="discount-amount" name="discount-amount" required>
+                    
+                        <label for="cash-holder-name">Cash Holder Name*</label>
+                        <input type="text" id="cash-holder-name" name="cash-holder-name" required>
+                    
+                        <label for="credit-card-no">Credit Card No*</label>
+                        <input type="text" id="credit-card-no" name="credit-card-no" required>
+                    
+                        <label for="card-security-code">Card Security Code*</label>
+                        <input type="text" id="card-security-code" name="card-security-code" required>
+                    
+                        <label for="expiry-date">Expiry Date*</label>
+
+                        <div>
+                            <input type="text" id="expiry-date" name="expiry-date" required>
+                        </div>
+                        
+                
+                </form>
+            </div>
+        </div>
+        <div class="button-action">
+            <button type="button" class="back-button" onclick="openInformationForm()">Back</button>
+            <button type="button" class="next-button" onclick="openCommentForm()">Proceed</button>    
+        </div>
+        </section>
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

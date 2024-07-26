@@ -1,0 +1,30 @@
+@import url(styles.css);
+
+#your-message {
+    width: 500px;
+    height: 150px;
+    
+}
+
+.check-box {
+    display: flex;
+    margin-top: 10px;
+}
+
+#keep-me {
+    height: 25px;
+    width: 25px;
+}
+
+
+button {
+    width: 25%;
+}
+
+#submit{
+    margin-left: 325px;
+}
+
+.button-container {
+    display: flex;
+}
