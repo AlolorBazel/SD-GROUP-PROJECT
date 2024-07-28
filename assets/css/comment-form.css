@@ -301,3 +301,88 @@ footer .copyright{
     margin-top: 1em;
     font-size: 0.8em;
 }
+
+
+
+@media (max-width: 1440px) {
+    .container{
+        width: 45%;
+    }
+
+    hr{
+        width: 55%;
+    }
+    
+    .input-group {
+        margin-left: -20%;
+    }
+
+    #your-message {
+        width: 173%;
+    }
+
+
+    .button-container {
+        margin-left: 400px;
+    }
+
+    #finish {
+        margin-left: 330px;
+    }
+
+}
+
+@media (max-width: 1366px) {
+    .container{
+        width: 39%;
+    }
+
+    hr{
+        width: 55%;
+    }
+
+    .input-group {
+        margin-top: 10px;
+        margin-left: -4%;
+    }
+    #your-message {
+        width: 140%;
+    }
+
+    .button-container {
+        margin-left: 400px;
+    }
+
+    #finish {
+        margin-left: 200px;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .container{
+        width: 45%;
+    }
+
+    hr{
+        width: 55%;
+    }
+    
+    .input-group {
+        margin-top: 10px;
+        margin-left: 4%;
+    }
+    #your-message {
+        width: 130%;
+    }
+
+    .button-container {
+        margin-left: 283px;
+    }
+
+    #finish {
+        margin-left: 150px;
+    }
+}
