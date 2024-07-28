@@ -179,46 +179,6 @@ hr{
     color: var(--white-color);
 }
 
-.fulname,
-#emailAddress,
-#mobileNum{
-    margin-top: 10px;
-}
-
-section .information-form{
-    background: var(--form-color);
-    border-radius: 10px;
-    /* width: min(70%, 40em); */
-    margin: 0 auto;
-    padding: 15px;
-}
-
-.information-form h2{
-    font-weight: 600;
-}
-
-.information-form input{
-    border: none;
-    padding: 10px;
-}
-
-section form{
-    padding: 10px 30px 20px 30px;
-}
-
-form .fullname{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5em;
-}
-
-#firstName,
-#lastName{
-    flex: 1;
-}
-
-
-
 button{
     font-size: 1.3em; 
     padding: 10px;
@@ -351,4 +311,64 @@ input {
 
 
 /*------------Media-----------------*/
+
+@media (max-width: 1440px) {
+    .container{
+        width: 37%;
+    }
+
+    hr{
+        width: 55%;
+    }
+    .form-container{
+        padding: 15px 30px 20px;
+    }
+
+    .button-action {
+        margin-left: 465px;
+    }
+}
+
+
+@media (max-width: 1366px) {
+    .container{
+        width: 39%;
+    }
+
+    hr{
+        width: 55%;
+    }
+    .form-container{
+        padding: 15px 30px 20px;
+    }
+
+    .button-action {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        width: 39%;
+    }
+
+    hr{
+        width: 55%;
+    }
+
+    .button-action {
+        margin-left: 257px;
+    }
+}
+
+@media (max-width: 1224px) {
+    .container{
+        width: 50%;
+    }
+
+    hr{
+        width: 55%;
+    }
+ 
+}
 
